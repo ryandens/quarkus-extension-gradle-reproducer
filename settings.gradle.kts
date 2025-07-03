@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = "quarkus-extension-gradle-reproducer"
-include("lib")
+include("example", "example-deployment", "lib")
