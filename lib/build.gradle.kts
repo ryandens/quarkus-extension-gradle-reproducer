@@ -17,6 +17,7 @@ repositories {
 
 dependencies {
     implementation(platform(libs.quarkus.bom))
+    implementation(project(":example"))
     implementation("io.quarkus:quarkus-arc")
     implementation("io.smallrye.config:smallrye-config")
     implementation("jakarta.enterprise:jakarta.enterprise.cdi-api")
