@@ -3,7 +3,7 @@
 
 [versions]
 junit-jupiter = "5.11.1"
-quarkus = "999-SNAPSHOT"
+quarkus = "3.25.0"
 
 [libraries]
 quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "quarkus" }
